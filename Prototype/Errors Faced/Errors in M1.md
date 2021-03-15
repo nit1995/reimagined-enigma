@@ -1,4 +1,4 @@
-# Timer not working properly. Always shows the maximum UNIX Time
+Timer not working properly. Always shows the maximum UNIX Time
 
 ```
 Current Date & Time: 
