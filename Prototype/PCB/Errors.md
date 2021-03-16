@@ -1,0 +1,1 @@
+1. **SDA and SCL interchanged**. Cut the trace near pin D20 and D21 of the Arduino in the back of the PCB. Use jumper wires to interchange the exisiting connections. Solves the DS3231 malfucntion issue seen in M1. 
