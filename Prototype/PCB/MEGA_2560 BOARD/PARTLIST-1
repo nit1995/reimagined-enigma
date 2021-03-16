@@ -1,0 +1,291 @@
+Partlist
+
+Exported from Motherboard Schematics - 1 - 29_Dec_2020.brd at 1/28/2021 10:20 AM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                               Package                                   Library                                           Position (mil)        Orientation
+
+C1                                           C1206                                     rcl                                               (4955 1610)           MR0
+C2                                           C1206                                     rcl                                               (4847 1585)           R0
+C3                                           C1206                                     rcl                                               (4934 1205)           R270
+C4                                           C1206                                     rcl                                               (5015 719)            MR0
+C5                                           C1206                                     rcl                                               (5051 107)            MR0
+C6                                           C1206                                     rcl                                               (4645 215)            R0
+C7                                           C1206                                     rcl                                               (5080 -360)           R270
+C8                                           C1206                                     rcl                                               (5000 -400)           MR0
+C9                                           C1206                                     rcl                                               (4570 -695)           R0
+C10                                          C1206                                     rcl                                               (4715 -845)           MR180
+C11                                          C1206                                     rcl                                               (4685 1630)           MR270
+C12                                          C1206                                     rcl                                               (4915 1765)           R90
+C13                                          C1206                                     rcl                                               (4935 1035)           R180
+C14                                          C1206                                     rcl                                               (4785 925)            MR0
+C15                                          C1206                                     rcl                                               (4820 25)             MR0
+C16                                          C1206                                     rcl                                               (4895 340)            R90
+C17                                          C1206                                     rcl                                               (4895 -365)           R180
+C18                                          C1206                                     rcl                                               (4793 -512)           MR0
+C19                                          C1206                                     rcl                                               (5000 -770)           R0
+C20                                          C1206                                     rcl                                               (4920 -665)           MR180
+C21      0.1uF                               C1206                                     rcl                                               (4750 1825)           MR180
+C22      0.1uF                               C1206                                     rcl                                               (4749 1950)           R0
+C23      0.1uF                               C1206                                     rcl                                               (4636 1375)           R0
+C24      0.1uF                               C1206                                     rcl                                               (4735 780)            MR90
+C25      0.1uF                               C1206                                     rcl                                               (4820 310)            MR180
+C26                                          C1206                                     rcl                                               (4650 405)            R0
+C27                                          C1206                                     rcl                                               (4750 -55)            R0
+C28                                          C1206                                     rcl                                               (4790 -210)           MR180
+C29                                          C1206                                     rcl                                               (4560 -875)           R0
+C30                                          C1206                                     rcl                                               (4523 -728)           MR270
+C31      1000uF                              E7,5-16                                   rcl                                               (3965 2845)           R270
+C32      220uF                               E5-10,5                                   rcl                                               (4485 3180)           R270
+C33      0.1uF                               C1206                                     rcl                                               (3770 2870)           MR270
+C34      0.1uF                               C1206                                     rcl                                               (4360 3185)           MR270
+C35      0.1uF                               C1206                                     rcl                                               (5295 3105)           MR270
+C36      220uF                               E5-10,5                                   rcl                                               (5155 3110)           R270
+C37      0.1uF                               C1206                                     rcl                                               (5415 3715)           MR180
+C38      0.1uF                               C1206                                     rcl                                               (4605 3690)           MR270
+C39      0.1uF                               C1206                                     rcl                                               (1420 -620)           R90
+C40      220uF                               E5-10,5                                   rcl                                               (5430 3540)           R0
+C41      0.1uF                               C1206                                     rcl                                               (2209 -720)           MR180
+C42      0.1uF                               C1206                                     rcl                                               (2080 315)            MR0
+C43      0.1uF                               C1206                                     rcl                                               (1580 295)            MR0
+C44      0.1uF                               C1206                                     rcl                                               (1473 635)            MR270
+C45      0.1uF                               C1206                                     rcl                                               (1968 561)            MR270
+C46      0.1uF                               C1206                                     rcl                                               (1561 1006)           MR0
+C47      0.1uF                               C1206                                     rcl                                               (2018 1140)           MR90
+C48      0.1uF                               C1206                                     rcl                                               (1057 833)            MR180
+C49      0.1uF                               C1206                                     rcl                                               (647 452)             MR270
+C50      0.1uF                               C1206                                     rcl                                               (1193 1388)           MR270
+C51      0.1uF                               C1206                                     rcl                                               (758 1334)            MR270
+C52      0.1uF                               C1206                                     rcl                                               (3195 -1260)          MR0
+C53      0.1uF                               C1206                                     rcl                                               (3915 -1245)          MR0
+C54      0.1uF                               C1206                                     rcl                                               (2475 -1275)          MR0
+C55      0.1uF                               C1206                                     rcl                                               (1015 -275)           MR180
+C56      0.1uF                               C1206                                     rcl                                               (2650 -910)           MR270
+C57      10uF                                E2,5-7                                    rcl                                               (1105 245)            R0
+C58      10uF                                E2,5-7                                    rcl                                               (2245 -1125)          R270
+C59      0.1uF                               C1206                                     rcl                                               (-611 2830)           MR90
+C60      220uF                               E5-10,5                                   rcl                                               (4765 3715)           R270
+C61      0.1uF                               C1206                                     rcl                                               (2530 3795)           MR270
+C62      0.1uF                               C1206                                     rcl                                               (3805 3905)           MR270
+C63      0.1uF                               C1206                                     rcl                                               (198 2082)            MR90
+C64      0.1uF                               C1206                                     rcl                                               (226 -769)            MR270
+C65      0.1uF                               C1206                                     rcl                                               (-205 -1180)          MR270
+C66      0.1uF                               C1206                                     rcl                                               (-179 1609)           MR90
+C67      10uF                                E2,5-7                                    rcl                                               (420 2093)            R90
+C68      10uF                                E2,5-7                                    rcl                                               (-235 -560)           R270
+C69      10uF                                E2,5-7                                    rcl                                               (-210 -1410)          R180
+C70      10uF                                E2,5-7                                    rcl                                               (399 1580)            R90
+C71      10uF                                E2,5-7                                    rcl                                               (-229 2375)           R0
+C72      1000uF                              E7,5-16                                   rcl                                               (1580 3310)           R270
+C73      0.1uF                               C1206                                     rcl                                               (2045 2775)           MR270
+C74      0.1uF                               C1206                                     rcl                                               (3030 240)            MR180
+C75      220uF                               E5-10,5                                   rcl                                               (2125 3895)           R90
+C76      220uF                               E5-10,5                                   rcl                                               (4320 3915)           R270
+C77      220uF                               E5-10,5                                   rcl                                               (2040 2025)           R180
+C78      0.1uF                               C1206                                     rcl                                               (2555 1965)           MR270
+C79      0.1uF                               C1206                                     rcl                                               (1425 -850)           R90
+C80      0.1uF                               C1206                                     rcl                                               (2209 -626)           MR180
+C81      0.1uF                               C1206                                     rcl                                               (2025 -45)            MR270
+C82      0.1uF                               C1206                                     rcl                                               (1590 -55)            MR270
+C83      0.1uF                               C1206                                     rcl                                               (1235 710)            MR270
+C84      0.1uF                               C1206                                     rcl                                               (1720 555)            MR270
+C85      0.1uF                               C1206                                     rcl                                               (1525 1207)           MR270
+C86      0.1uF                               C1206                                     rcl                                               (1935 1140)           MR270
+C87      0.1uF                               C1206                                     rcl                                               (971 741)             MR180
+C88      0.1uF                               C1206                                     rcl                                               (550 517)             MR270
+C89      0.1uF                               C1206                                     rcl                                               (1108 1472)           MR270
+C90      0.1uF                               C1206                                     rcl                                               (465 1329)            R270
+C103     0.1uF                               C1206                                     rcl                                               (4430 930)            MR90
+C104     0.1uF                               C1206                                     rcl                                               (4593 -292)           MR180
+C105     0.1uF                               C1206                                     rcl                                               (4567 85)             MR90
+C106     0.1uF                               C1206                                     rcl                                               (3975 -60)            MR0
+C107     0.1uF                               C1206                                     rcl                                               (4510 360)            MR90
+C108     0.1uF                               C1206                                     rcl                                               (4010 300)            MR90
+D1       1N4148W                             DO214AC                                   diode                                             (4979 1497)           MR0
+D2       1N4148W                             DO214AC                                   diode                                             (4977 1483)           R180
+D3       1N4148W                             DO214AC                                   diode                                             (4754 1278)           R0
+D4       1N4148W                             DO214AC                                   diode                                             (5069 593)            MR0
+D5       1N4148W                             DO214AC                                   diode                                             (5066 -3)             MR0
+D6       1N4148W                             DO214AC                                   diode                                             (4900 169)            R0
+D7       1N4148W                             DO214AC                                   diode                                             (4908 -478)           R180
+D8       1N4148W                             DO214AC                                   diode                                             (5040 -523)           MR0
+D9       1N4148W                             DO214AC                                   diode                                             (4657 -596)           R0
+D10      1N4148W                             DO214AC                                   diode                                             (4699 -754)           MR180
+D11      1N4148W                             DO214AC                                   diode                                             (4800 1620)           MR270
+D12      1N4148W                             DO214AC                                   diode                                             (4802 1767)           R90
+D13      1N4148W                             DO214AC                                   diode                                             (4775 1090)           R90
+D14.     1N4148W                             DO214AC                                   diode                                             (4895 1054)           MR0
+D15      1N4148W                             DO214AC                                   diode                                             (4805 121)            MR0
+D16      1N4148W                             DO214AC                                   diode                                             (4803 384)            R90
+D17      1N4148W                             DO214AC                                   diode                                             (4768 -407)           MR0
+D18      1N4148W                             DO214AC                                   diode                                             (4723 -371)           R270
+D19      1N4148W                             DO214AC                                   diode                                             (5035 -632)           R0
+D20      1N4148W                             DO214AC                                   diode                                             (5104 -767)           MR90
+FUSE                                         SH22,5A                                   fuse                                              (1260 3965)           R0
+IC1      MCT2E                               DIP762W60P254L712H480Q6N                  MCT2E                                             (756 1315)            R0
+IC2      7805DT                              TO252                                     linear                                            (4765 3005)           MR180
+IC3      7805DT                              TO252                                     linear                                            (5060 3680)           MR0
+IC4      MCT2E                               DIP762W60P254L712H480Q6N                  MCT2E                                             (1680 -755)           R90
+IC5      MCT2E                               DIP762W60P254L712H480Q6N                  MCT2E                                             (2150 -680)           R270
+IC6      MCT2E                               DIP762W60P254L712H480Q6N                  MCT2E                                             (2010 5)              R0
+IC7      MCT2E                               DIP762W60P254L712H480Q6N                  MCT2E                                             (1590 -5)             R0
+IC8      MCT2E                               DIP762W60P254L712H480Q6N                  MCT2E                                             (1475 690)            R0
+IC9      MCT2E                               DIP762W60P254L712H480Q6N                  MCT2E                                             (1955 615)            R0
+IC10     MCT2E                               DIP762W60P254L712H480Q6N                  MCT2E                                             (1566 1137)           R0
+IC11     MCT2E                               DIP762W60P254L712H480Q6N                  MCT2E                                             (1970 1150)           R0
+IC12     MCT2E                               DIP762W60P254L712H480Q6N                  MCT2E                                             (1011 780)            R90
+IC13     MCT2E                               DIP762W60P254L712H480Q6N                  MCT2E                                             (581 408)             R0
+IC14     MCT2E                               DIP762W60P254L712H480Q6N                  MCT2E                                             (1171 1486)           R0
+LED1                                         CHIPLED_1206                              led                                               (1699 -1114)          R90
+LED2                                         CHIPLED_1206                              led                                               (2045 -398)           R270
+LED3                                         CHIPLED_1206                              led                                               (1945 245)            R90
+LED4                                         CHIPLED_1206                              led                                               (1538 238)            R90
+LED5                                         CHIPLED_1206                              led                                               (1517 465)            R90
+LED6                                         CHIPLED_1206                              led                                               (1924 862)            R90
+LED7                                         CHIPLED_1206                              led                                               (1490 1390)           R90
+LED8                                         CHIPLED_1206                              led                                               (1945 1390)           R90
+LED9                                         CHIPLED_1206                              led                                               (798 716)             R180
+LED10                                        CHIPLED_1206                              led                                               (512 665)             R90
+LED11                                        CHIPLED_1206                              led                                               (1049 1785)           R90
+LED12                                        CHIPLED_1206                              led                                               (724 1583)            R90
+LED13                                        CHIPLED_1206                              led                                               (4740 3135)           R0
+LED14                                        CHIPLED_1206                              led                                               (5045 3615)           R0
+LED15                                        CHIPLED_1206                              led                                               (4350 3630)           R270
+LED16                                        CHIPLED_1206                              led                                               (4085 2405)           R270
+MOD1     CARD-SD-ADAPTER-CATALEX             CARD-SD-ADAPTER-CATALEX                   SD-Card-Module_CATALEX                            (800 -750)            R270
+R        1k                                  R1206                                     rcl                                               (4925 -845)           MR0
+R1       1k                                  R1206                                     modified cap                                      (4990 1765)           MR90
+R2       1k                                  R1206                                     rcl                                               (5010 1775)           R270
+R3       1k                                  R1206                                     rcl                                               (5030 1205)           R270
+R4       1k                                  R1206                                     rcl                                               (4854 780)            MR270
+R5       1k                                  R1206                                     rcl                                               (5090 265)            MR270
+R6       1k                                  R1206                                     rcl                                               (4980 340)            R270
+R7       1k                                  R1206                                     rcl                                               (4870 -215)           R270
+R8       1k                                  R1206                                     rcl                                               (5035 -250)           MR270
+R9       1k                                  R1206                                     rcl                                               (4795 -695)           R0
+R10      10k                                 R1206                                     modified cap                                      (3030 370)            MR180
+R11      1k                                  R1206                                     rcl                                               (4895 1770)           MR90
+R12      1k                                  R1206                                     rcl                                               (4700 1745)           R90
+R13      1k                                  R1206                                     rcl                                               (4574 1195)           R90
+R14      1k                                  R1206                                     rcl                                               (4811 632)            MR180
+R15      1k                                  R1206                                     rcl                                               (4825 220)            MR180
+R16      1k                                  R1206                                     rcl                                               (4650 320)            R180
+R17      1k                                  R1206                                     rcl                                               (4725 -180)           R180
+R18      1k                                  R1206                                     rcl                                               (4795 -305)           MR0
+R19      1k                                  R1206                                     rcl                                               (4570 -785)           R180
+R20      1k                                  R1206                                     rcl                                               (4712 -647)           MR0
+R21      10k                                 R1206                                     rcl                                               (5080 1765)           MR270
+R22      10k                                 R1206                                     rcl                                               (5105 1775)           R90
+R23      10k                                 R1206                                     rcl                                               (5119 1199)           R90
+R24      10k                                 R1206                                     rcl                                               (4970 880)            MR90
+R25      10k                                 R1206                                     rcl                                               (4980 265)            MR90
+R26      10k                                 R1206                                     rcl                                               (5075 340)            R90
+R27      10k                                 R1206                                     rcl                                               (4960 -220)           R90
+R28      10k                                 R1206                                     rcl                                               (4945 -250)           MR90
+R29      10k                                 R1206                                     rcl                                               (4925 -755)           MR180
+R30      10k                                 R1206                                     rcl                                               (4795 -780)           R180
+R31      10k                                 R1206                                     rcl                                               (1505 -760)           MR90
+R32      10k                                 R1206                                     rcl                                               (1713 -1013)          R180
+R33      10k                                 R1206                                     rcl                                               (1660 -775)           MR0
+R34      10k                                 R1206                                     rcl                                               (1535 -470)           R0
+R35      10k                                 R1206                                     rcl                                               (2266 -394)           R0
+R36      10k                                 R1206                                     rcl                                               (2267 -228)           R180
+R37      10k                                 R1206                                     rcl                                               (1682 -264)           R180
+R38      10k                                 R1206                                     rcl                                               (1520 460)            MR0
+R39      10k                                 R1206                                     rcl                                               (1933 373)            R180
+R40      10k                                 R1206                                     rcl                                               (1660 917)            R180
+R41      10k                                 R1206                                     rcl                                               (1940 949)            MR0
+R42      10k                                 R1206                                     rcl                                               (1239 954)            R90
+R43      10k                                 R1206                                     rcl                                               (852 445)             R270
+R44      10k                                 R1206                                     rcl                                               (1289 1180)           R270
+R45      10k                                 R1206                                     rcl                                               (765 1180)            MR0
+R46      10k                                 R1206                                     rcl                                               (1925 -650)           MR270
+R47      10k                                 R1206                                     rcl                                               (1883 -458)           R270
+R48      10k                                 R1206                                     rcl                                               (2036 -677)           MR90
+R49      10k                                 R1206                                     rcl                                               (1915 265)            MR270
+R50      10k                                 R1206                                     rcl                                               (2110 300)            R90
+R51      10k                                 R1206                                     rcl                                               (2025 155)            MR270
+R52      10k                                 R1206                                     rcl                                               (1455 205)            MR180
+R53      10k                                 R1206                                     rcl                                               (1740 295)            R270
+R54      10k                                 R1206                                     rcl                                               (1595 150)            MR270
+R55      10k                                 R1206                                     rcl                                               (1538 854)            MR270
+R56      10k                                 R1206                                     rcl                                               (1520 360)            R180
+R57      10k                                 R1206                                     rcl                                               (1342 891)            MR0
+R58      10k                                 R1206                                     rcl                                               (1970 776)            MR90
+R59      10k                                 R1206                                     rcl                                               (2133 862)            R0
+R60      10k                                 R1206                                     rcl                                               (1810 860)            MR0
+R61      10k                                 R1206                                     rcl                                               (1469 1392)           MR180
+R62      10k                                 R1206                                     rcl                                               (1705 1390)           R0
+R63      10k                                 R1206                                     rcl                                               (1610 1305)           MR270
+R64      10k                                 R1206                                     rcl                                               (2030 1400)           MR90
+R65      10k                                 R1206                                     rcl                                               (1953 1483)           R180
+R66      10k                                 R1206                                     rcl                                               (1930 1380)           MR270
+R67      10k                                 R1206                                     rcl                                               (738 909)             MR180
+R68      10k                                 R1206                                     rcl                                               (512 764)             R180
+R69      10k                                 R1206                                     rcl                                               (800 758)             MR270
+R70      10k                                 R1206                                     rcl                                               (507 784)             MR180
+R71      10k                                 R1206                                     rcl                                               (676 705)             R90
+R72      10k                                 R1206                                     rcl                                               (655 722)             MR270
+R73      10k                                 R1206                                     rcl                                               (1057 1675)           MR180
+R74      10k                                 R1206                                     rcl                                               (1259 1784)           R0
+R75      10k                                 R1206                                     rcl                                               (1202 1619)           MR270
+R76      10k                                 R1206                                     rcl                                               (660 1606)            MR180
+R77      10k                                 R1206                                     rcl                                               (882 1619)            R90
+R78      10k                                 R1206                                     rcl                                               (835 1537)            MR270
+R79      1k                                  R1206                                     rcl                                               (4865 3125)           R90
+R80      1k                                  R1206                                     rcl                                               (5160 3615)           R90
+R81      1k                                  R1206                                     rcl                                               (4170 3570)           R270
+R82      1k                                  R1206                                     modified cap                                      (2835 300)            MR90
+R83      1k                                  R1206                                     rcl                                               (3825 2410)           R180
+R84      1k                                  R1206                                     rcl                                               (4455 715)            MR270
+R85      1k                                  R1206                                     rcl                                               (4560 -117)           MR90
+R86      1k                                  R1206                                     rcl                                               (4035 -225)           MR270
+R87      1k                                  R1206                                     rcl                                               (4481 152)            MR90
+R88      1k                                  R1206                                     rcl                                               (4010 100)            MR270
+R89      1k                                  R1206                                     rcl                                               (4488 508)            MR180
+RESET_SW                                     B3F-10XX                                  switch-omron                                      (4685 -1390)          R180
+SL1                                          10P                                       con-amp-quick                                     (4265 1550)           R270
+SL2                                          02P                                       con-amp-quick                                     (-686 3476)           R270
+SL3                                          04P                                       con-amp-quick                                     (-5 1975)             R270
+SL4                                          04P                                       con-amp-quick                                     (30 -675)             R90
+SL5                                          04P                                       con-amp-quick                                     (30 -1165)            R90
+SL6                                          04P                                       con-amp-quick                                     (5 1500)              R270
+SL7                                          05P                                       con-amp-quick                                     (-10 -85)             R90
+SL8                                          09P                                       con-amp-quick                                     (10 735)              R90
+SL9                                          03P                                       con-amp-quick                                     (1436 2362)           R0
+SL10                                         02P                                       con-amp-quick                                     (1460 1965)           R0
+SL13                                         02P                                       con-amp-quick                                     (4690 -1130)          R0
+SL14                                         06P                                       con-amp-quick                                     (3375 -1420)          R0
+SL15                                         06P                                       con-amp-quick                                     (4120 -1420)          R0
+SL16                                         06P                                       con-amp-quick                                     (2675 -1420)          R0
+SL17                                         05P                                       con-amp-quick                                     (4255 740)            R270
+SL18                                         04P                                       con-amp-quick                                     (4290 -455)           R180
+SL19                                         07P                                       con-amp-quick                                     (4260 65)             R90
+SW       SPPH410100                          SPPH410100                                SPPH410100                                        (950 2110)            R0
+SWITCH   SWITCH_I                            SWITCH_I                                  SWITCH-I                                          (20 3470)             R0
+T1       TERMINAL_BLOCK                      BOC_TERMINAL                              TERMINAL_BLOCK                                    (0 3990)              R180
+U$1      RTC-DS3231-AT24C32                  RTC-DS3231-AT24C32                        diy-modules                                       (3205 -715)           R0
+U$2      RS485-TTL-CONVERTER                 RS485-TTL-CONVERTER                       diy-modules (1)                                   (45 2825)             R180
+U$3      DC-DC-STEP-DOWN-LM2596              DC-DC-STEP-DOWN-LM2596                    diy-modules                                       (2745 2700)           R0
+U$4      DC-DC-STEP-DOWN-LM2596              DC-DC-STEP-DOWN-LM2596                    diy-modules                                       (3220 3685)           R0
+U1       MEGA_PRO_EMBED_CH340G_/_ATMEGA2560  MODULE_MEGA_PRO_EMBED_CH340G_/_ATMEGA2560 MEGA_PRO_EMBED_CH340G___ATMEGA2560                (3035 1030)           R270
+X1       5mmTerminal_Block                   TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Terminal Block -5mm v1-0                          (-535 2110)           R90
+X2       5mmTerminal_Block                   TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Terminal Block -5mm v1-0                          (5216 -1364)          R180
+X3       5mmTerminal_Block                   TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Terminal Block -5mm v1-0                          (5405 2305)           R90
+X5       TERMINAL-BLOCK-3.5MM-2-PIN-LONG-PAD TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Rembrandt Electronics - Terminal Block 3-5mm v1-0 (1695 -1380)          R0
+X6       5mmTerminal_Block                   TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Terminal Block -5mm v1-0                          (5405 1765)           R90
+X7       5mmTerminal_Block                   TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Terminal Block -5mm v1-0                          (5405 1335)           R270
+X8       5mmTerminal_Block                   TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Terminal Block -5mm v1-0                          (5405 790)            R90
+X9       5mmTerminal_Block                   TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Terminal Block -5mm v1-0                          (5405 290)            R90
+X10      5mmTerminal_Block                   TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Terminal Block -5mm v1-0                          (5405 -240)           R90
+X11      5mmTerminal_Block                   TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Terminal Block -5mm v1-0                          (5405 -735)           R270
+X12      TERMINAL-BLOCK-3.5MM-2-PIN-LONG-PAD TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Rembrandt Electronics - Terminal Block 3-5mm v1-0 (-535 -1115)          R90
+X13      TERMINAL-BLOCK-3.5MM-2-PIN-LONG-PAD TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Rembrandt Electronics - Terminal Block 3-5mm v1-0 (-535 -675)           R90
+X14      TERMINAL-BLOCK-3.5MM-2-PIN-LONG-PAD TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Rembrandt Electronics - Terminal Block 3-5mm v1-0 (-535 -205)           R90
+X15      TERMINAL-BLOCK-3.5MM-2-PIN-LONG-PAD TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Rembrandt Electronics - Terminal Block 3-5mm v1-0 (-535 275)            R270
+X16      TERMINAL-BLOCK-3.5MM-2-PIN-LONG-PAD TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Rembrandt Electronics - Terminal Block 3-5mm v1-0 (-535 720)            R90
+X17      TERMINAL-BLOCK-3.5MM-2-PIN-LONG-PAD TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Rembrandt Electronics - Terminal Block 3-5mm v1-0 (-535 1180)           R90
+X18      TERMINAL-BLOCK-3.5MM-2-PIN-LONG-PAD TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD       Rembrandt Electronics - Terminal Block 3-5mm v1-0 (-535 1640)           R90

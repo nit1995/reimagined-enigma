@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-01-04T18:37:04Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Motherboard Schematics - 1 - 29_Dec_2020"
+        },
+        "Owner": "  <>",
+        "Size": {
+            "X": 166.2684,
+            "Y": 147.9804
+        }
+    }
+}
