@@ -8,4 +8,4 @@ elapsed 2121723985 seconds/24556 days since 1/1/1970
 Future Date & Time (Now + 7days & 30s): 
 2037/4/2 23:46:55
 ```
-
+Used i2cscanner.ino to find that no device was connected to any I2C address. 
