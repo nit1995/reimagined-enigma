@@ -18,10 +18,11 @@
 19/3/2021
 Added sleep to Nextion Display in Nextion GUI Editor
 
-`//The following code is only run once when power on, and is generally used for global variable definition and power on initialization data
+```
+//The following code is only run once when power on, and is generally used for global variable definition and power on initialization data
 int sys0=0,sys1=0,sys2=0    
 thsp=5    //Sleep on No Touch
 thup=1    //Auto wake up on touch
 page 0                       //Power on start page 0
-`
+```
 
