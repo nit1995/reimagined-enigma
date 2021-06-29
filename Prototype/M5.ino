@@ -1,5 +1,9 @@
 
-//Program to read all 10 Magnetic Float Sensors to be installed in Lodhva and store the data in an SD Card with timestamp
+/*
+Program to read all 10 Magnetic Float Sensors to be installed in Lodhva and store the data in an SD Card with timestamp
+Written by Niteesh S Shanbog
+Date - 29/06/2021
+*/
 
 
 
