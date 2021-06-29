@@ -1,20 +1,14 @@
-**15/3/2021**
-1. Problem with interfacing DS3231. Looks to be an I2C or Power issue. Needs debugging. 
+**29/6/2021**
 
-2. M2 succesfully made without RTC. **No timestamp**.
+M5.ino - Program to take data from all 10 Magnetic Float Sensors from the EMCS and store them in SD Card with timestamp.
 
-3. M3 - pH Sensor, Conductivity Meter and Level Sensor integrated to M2. Problem with RTC not resolved. **No time stamp**. **Calibration of Conductivity Meter required.**
+Wrote function to check level from the level sensor. 
 
-4. M4 - Added NEXTION Display to M3. Calibrated Conductivity Sensor. **No timestamp**
+**Testing to be done**
 
+Read this source to understand how to write functions for Arduino code: https://canvas.instructure.com/courses/1054116/pages/arduino-coding-writing-functions-4-examples
+*********************************************************************************************
 
-
-***********************************************************************************
-**16/3/2021**
-1. SDA and SCL lines interchanged in the PCB. PCB physically corrected by cutting the traces and using jumper wires to make the proper connections. Timestamp issue solved in M1. 
-2. Timestamp added to M4. 
-
-**************************************************************************************
 **19/3/2021**
 
 Added sleep to Nextion Display in Nextion GUI Editor
@@ -27,12 +21,22 @@ thup=1    //Auto wake up on touch
 page 0                       //Power on start page 0
 ```
 ****************************************************************************************
-**29/6/2021**
+**16/3/2021**
+1. SDA and SCL lines interchanged in the PCB. PCB physically corrected by cutting the traces and using jumper wires to make the proper connections. Timestamp issue solved in M1. 
+2. Timestamp added to M4. 
 
-M5.ino - Program to take data from all 10 Magnetic Float Sensors from the EMCS and store them in SD Card with timestamp.
+**************************************************************************************
+**15/3/2021**
+1. Problem with interfacing DS3231. Looks to be an I2C or Power issue. Needs debugging. 
 
-Wrote function to check level from the level sensor. 
+2. M2 succesfully made without RTC. **No timestamp**.
 
-**Testing to be done**
+3. M3 - pH Sensor, Conductivity Meter and Level Sensor integrated to M2. Problem with RTC not resolved. **No time stamp**. **Calibration of Conductivity Meter required.**
 
-Read this source to understand how to write functions for Arduino code: https://canvas.instructure.com/courses/1054116/pages/arduino-coding-writing-functions-4-examples
+4. M4 - Added NEXTION Display to M3. Calibrated Conductivity Sensor. ~**No timestamp**~
+
+
+
+***********************************************************************************
+
+
