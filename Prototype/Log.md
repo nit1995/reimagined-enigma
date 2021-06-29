@@ -25,4 +25,9 @@ thsp=5    //Sleep on No Touch
 thup=1    //Auto wake up on touch
 page 0                       //Power on start page 0
 ```
-
+****************************************************************************************
+29/6/2021
+M5.ino - Program to take data from all 10 Magnetic Float Sensors from the EMCS and store them in SD Card with timestamp
+Wrote function to check level from the level sensor. 
+**Testing to be done**
+Read this source to understand how to write functions for Arduino code: https://canvas.instructure.com/courses/1054116/pages/arduino-coding-writing-functions-4-examples
