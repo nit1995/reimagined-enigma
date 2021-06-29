@@ -27,7 +27,7 @@ page 0                       //Power on start page 0
 
 **************************************************************************************
 **15/3/2021**
-1. ~Problem with interfacing DS3231. Looks to be an I2C or Power issue. Needs debugging.~ Problem in PCB
+1. ~Problem with interfacing DS3231. Looks to be an I2C or Power issue. Needs debugging.~ *Problem in PCB - Solved*
 
 2. M2 succesfully made without RTC. ~**No timestamp**~.
 
