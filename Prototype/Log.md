@@ -1,4 +1,4 @@
-15/3/2021
+**15/3/2021**
 1. Problem with interfacing DS3231. Looks to be an I2C or Power issue. Needs debugging. 
 
 2. M2 succesfully made without RTC. **No timestamp**.
@@ -10,12 +10,13 @@
 
 
 ***********************************************************************************
-16/3/2021
+**16/3/2021**
 1. SDA and SCL lines interchanged in the PCB. PCB physically corrected by cutting the traces and using jumper wires to make the proper connections. Timestamp issue solved in M1. 
 2. Timestamp added to M4. 
 
 **************************************************************************************
-19/3/2021
+**19/3/2021**
+
 Added sleep to Nextion Display in Nextion GUI Editor
 
 ```
@@ -26,7 +27,8 @@ thup=1    //Auto wake up on touch
 page 0                       //Power on start page 0
 ```
 ****************************************************************************************
-29/6/2021
+**29/6/2021**
+
 M5.ino - Program to take data from all 10 Magnetic Float Sensors from the EMCS and store them in SD Card with timestamp
 Wrote function to check level from the level sensor. 
 **Testing to be done**
