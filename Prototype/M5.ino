@@ -1,22 +1,13 @@
-//NEXTION Display using Serial 
-#include "Nextion.h"
 
-// Declare your Nextion objects - Example (page id = 0, component id = 1, component name = "b0") 
+//Program to read all 10 Magnetic Float Sensors to be installed in Lodhva and store the data in an SD Card with timestamp
 
 
-NexNumber n3 = NexNumber(3, 3, "n3");
-NexNumber n0 = NexNumber(1, 13, "n0");
-NexNumber n1 = NexNumber(1, 17, "n1");
 
-// Date and time functions using a DS1307 RTC connected via I2C and Wire lib
+// Date and time functions using a DS3231 RTC connected via I2C and Wire lib
 #include <Wire.h>
 #include "RTClib.h"
 
-
 RTC_DS3231 rtc;
-
-
-int do1 = 44;
 
 #include <SPI.h>
 #include <SD.h>
@@ -26,17 +17,20 @@ File myFile;
 // change this to match your SD shield or module;
 const int chipSelect = 53;
 
-int FloatSensor = 28;   //DI7
 
-int pH_in;
-int phval = 0; 
+int LAH001 = 28;  //DI7 Float Sensor High Level of T01
+int LAH002 = 22;  //DI1 Float Sensor High Level of T06
+int LAH003 = 23;  //DI2 Float Sensor High Level of T03
+int LAH004 = 24;  //DI3 Float Sensor High Level of T07
+int LAH005 = 27;  //DI6 Float Sensor High Level of T05
+int LAH006 = 29;  //DI8 Float Sensor High Level of T12
+
+int LAL001 = 30;  //DI9 Float Sensor Low Level of T01
+int LAL002 = 31;  //DI10 Float Sensor Low Level of T07
+int LAL004 = 33;  //DI12 Float Sensor Low Level of T03
+int LAL005 = 26;  //DI5 Float Sensor Low Level of T12
 
 
-int cond_in;
-int condval = 0;
-
-unsigned long int avgval; 
-int buffer_arr[10];
 
 void setup()
 {
@@ -73,18 +67,12 @@ void setup()
     // for example to set January 27 2017 at 12:56 you would call:
      rtc.adjust(DateTime(2021, 3, 17, 11, 33, 0));
   }
-  
-
-
-nexInit();
-
- pinMode(do1, OUTPUT);
-  
 }
+
+
 
 void loop()
 {
- 
   DateTime now = rtc.now(); 
 
   //Values for timestamp to be appended at the beginning of the datastring
@@ -93,71 +81,21 @@ void loop()
   int day = now.day();
   int hour = now.hour();
   int minute = now.minute();
-  int second = now.second();
-   
-  
-  int level = 0;
-  int buttonState = digitalRead(FloatSensor); 
-  if (buttonState == LOW) 
-  { 
-    int level = 1;
-    Serial.println( "WATER LEVEL - HIGH"); 
-    digitalWrite(do1, LOW);
-  } 
-  else 
-  { 
-    int level = 0;
-    Serial.println( "WATER LEVEL - LOW" ); 
-    digitalWrite(do1, HIGH);
-  } 
-
-  float level_1 = level; 
-  
-  
-  for(int i=0;i<10;i++) 
-  { 
-    buffer_arr[i]=analogRead(A3);
-    delay(30);
-  }
-
-  avgval=0;
-  for(int i=0;i<10;i++)
-  {
-    avgval+=buffer_arr[i];
-  }
-
-  float pH_in = (float)avgval/10*14.0/1024;
-  float ph_act = pH_in;
-  Serial.print("pH Val:");
-  Serial.print(ph_act);
-  Serial.print("; ");
+  int second = now.second();  
 
 
-  delay(10);
-
-  for(int i=0;i<10;i++) 
-  { 
-    buffer_arr[i]=analogRead(A2);
-    delay(30);
-  }
-
-  avgval=0;
-  for(int i=0;i<10;i++)
-  {
-    avgval+=buffer_arr[i];
-  }
-
-  float cond_in = (float)avgval/10;
-  float cond_act = map(cond_in, 0, 1023, 0, 1999);
-  Serial.print("Cond Val:");
-  Serial.print(cond_act);
-  Serial.print("; ");
-
-
-  
+  int hT01 = level_check(1,LAH001);
+  int hT06 = level_check(1,LAH002);
+  int hT03 = level_check(1,LAH003);
+  int hT07 = level_check(1,LAH004);
+  int hT05 = level_check(1,LAH005);
+  int hT12 = level_check(1,LAH006);
+  int lT01 = level_check(0,LAL001);
+  int lT07 = level_check(0,LAL002);
+  int lT03 = level_check(0,LAL004);
+  int lT12 = level_check(0,LAL005);
 
   String dataString = "";
-
   dataString += String(year);
   dataString += "-";
   dataString += String(month);
@@ -170,15 +108,9 @@ void loop()
   dataString += ":";
   dataString += String(second);
   dataString += ",";
- 
 
-  dataString += String(ph_act);
+  dataString += String(hT01);
   dataString += ",";
-  dataString += String(cond_act);
-  dataString += ",";
-  dataString += String(level_1);
-  dataString += ",";
-
 
   char fileName[14];
   sprintf(fileName, "%4d%02d%02d.CSV", year, month, day);   //Name the file with today's date
@@ -188,24 +120,55 @@ void loop()
   myFile = SD.open(fileName, FILE_WRITE);
 
   // if the file opened okay, write to it:
-  if (myFile) {
-    Serial.print("Writing to test.txt...");
-    myFile.println(dataString);
-    // close the file:
-    myFile.close();
-    Serial.println("done.");
-  } else {
+  if (myFile) 
+  {
+      Serial.print("Writing to test.txt...");
+      myFile.println(dataString);
+      // close the file:
+      myFile.close();
+      Serial.println("done.");
+  } 
+  else 
+  {
     // if the file didn't open, print an error:
     Serial.println("error opening test.txt");
   }
 
-  //Pot readings to be displayed on the NEXTION display
-  n1.setValue(ph_act);
-  n0.setValue(cond_act);
-  n3.setValue(level);
-
-  
-
   delay (2000);
-  // nothing happens after setup
+
 }
+
+
+int level_check(int sensorType, int FloatSensor)
+{
+  int level = 0;
+  int buttonState = digitalRead(FloatSensor);
+  if (sensorType == 1)
+  {
+    if (buttonState == LOW) 
+      { 
+          int level = 0;
+          Serial.println( "WATER LEVEL - LOW"); 
+    } 
+      else 
+      { 
+          int level = 1;
+          Serial.println( "WATER LEVEL - HIGH" ); 
+      }
+  }
+  else
+  {
+    if (buttonState == LOW) 
+      { 
+          int level = 1;
+          Serial.println( "WATER LEVEL - LOW"); 
+    } 
+      else 
+      { 
+          int level = 0;
+          Serial.println( "WATER LEVEL - HIGH" ); 
+      }
+  }
+  return level;
+}
+    
