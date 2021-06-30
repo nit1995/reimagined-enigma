@@ -1,3 +1,8 @@
+**30/6/2021**
+Revision to M5 - write_SD() function added to write datastring into SD Card
+
+
+****************************************************************************************************
 **29/6/2021**
 
 M5.ino - Program to take data from all 10 Magnetic Float Sensors to the EMCS and store them in SD Card with timestamp.
