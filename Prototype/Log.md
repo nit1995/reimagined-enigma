@@ -1,6 +1,14 @@
 **30/6/2021**
-Revision to M5 - write_SD() function added to write datastring into SD Card
 
+Revision to M5 - `write_SD()` function added to write datastring into SD Card
+
+M6 - Code to implement Conductivity Sensors in EMCS and write in SD Card. **Must add pH sensor and Pressure sensors**
+`measure_conductivity()` function to measure conductivity based on the range of the sensor. `int condType` must be given as an input to the `measure_conductivity()` function. 
+```
+int condType = 1 for 0-1mS/cm
+int condType = 2 for 0-10mS/cm
+int condType = 3 for 0-50mS/cm
+```
 
 ****************************************************************************************************
 **29/6/2021**
