@@ -1,3 +1,9 @@
+M7.ino - Program to read pH Sensor
+
+**Calibration of pH Meter has to be performed**
+
+
+*****************************************************************************************************
 **30/6/2021**
 
 Revision to M5 - `write_SD()` function added to write datastring into SD Card
