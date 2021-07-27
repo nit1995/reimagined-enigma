@@ -1,3 +1,12 @@
+**27/7/2021**
+Fixed function return issue in level sensors. 
+Fixed measure_conductivity() function with regards to input of analog pin connected to sensor. 
+
+
+
+***************************************************************************************************
+**26/7/2021**
+
 M7.ino - Program to read pH Sensor
 
 **Calibration of pH Meter has to be performed**
