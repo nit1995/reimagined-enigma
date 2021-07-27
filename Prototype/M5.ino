@@ -117,8 +117,8 @@ int level_check(int sensorType, int FloatSensor)
   {
     if (buttonState == LOW) 
       { 
-          int level = 0;
-          Serial.println( "WATER LEVEL - LOW"); 
+          level = 0;
+          
     } 
       else 
       { 
