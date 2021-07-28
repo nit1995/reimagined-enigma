@@ -1,3 +1,7 @@
+**28/7/2021**
+
+Main_1.ino - Program to read 3 conductivity sensors, pH sensor and level sensors, log the data with time stamp on an SD Card and display on Nextion Display. Nextion Display is preloaded with GUI in Display.hmi https://github.com/nit1995/reimagined-enigma/blob/main/Prototype/Display.HMI
+****************************************************************************************************
 **27/7/2021**
 
 Fixed function return issue in level sensors. 
