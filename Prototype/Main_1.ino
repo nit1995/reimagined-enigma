@@ -74,6 +74,23 @@ float CT003 = 0;
 
 float pH001 = 0;
 
+int PI001 = 0;
+int PI003 = 0;
+int PT001 = 0;
+int PT004 = 0;
+int PT005 = 0;
+int ZL001 = 0;
+int ZL002 = 0;
+             
+int high_cond = 0;
+int COD = 0;
+int BOD = 0;
+
+int M001 = 0;
+int M002 = 0;
+int M003 = 0;
+int M005 = 0;
+
 float buffer_arr[10];
 float conductivity = 0;
 float pH = 0;
@@ -293,6 +310,40 @@ void write_SD()
     dataString += String(second);
     dataString += ",";
   
+    dataString += String(CT001);
+    dataString += ",";
+    dataString += String(CT002);
+    dataString += ",";
+    dataString += String(CT003);
+    dataString += ",";
+  
+    dataString += String(PI001);
+    dataString += ",";
+    dataString += String(PI002);
+    dataString += ",";
+    dataString += String(PT003);
+    dataString += ",";
+    dataString += String(PT004);
+    dataString += ",";
+    dataString += String(PT005);
+    dataString += ",";
+    dataString += String(ZL001);
+    dataString += ",";
+    dataString += String(ZL002);
+    dataString += ",";
+  
+    dataString += String(pH001);
+    dataString += ",";  
+  
+    dataString += String(high_cond);
+    dataString += ",";
+    dataString += String(cod);
+    dataString += ",";
+    dataString += String(bod);
+    dataString += ",";
+ 
+  
+
     dataString += String(hT01);
     dataString += ",";
     dataString += String(hT06);
@@ -313,16 +364,17 @@ void write_SD()
     dataString += ",";
     dataString += String(lT12);
     dataString += ",";
+  
+    dataString += String(M001);
+    dataString += ",";
+    dataString += String(M002);
+    dataString += ",";
+    dataString += String(M003);
+    dataString += ",";
+    dataString += String(M005);
+    dataString += ",";
+  
 
-    dataString += String(CT001);
-    dataString += ",";
-    dataString += String(CT002);
-    dataString += ",";
-    dataString += String(CT003);
-    dataString += ",";
-
-    dataString += String(pH001);
-    dataString += ",";
 
     Serial.println(dataString);
 
