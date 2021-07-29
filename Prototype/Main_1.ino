@@ -4,7 +4,7 @@ Program to read sensors, log the data with time stamp on an SD Card, display the
 Sensors added-
 1. Conductivity Sensors - 3
 2. pH Sensor - 1
-3. Level Sesnors -10
+3. Level Sesnsors -10
 
 Written by Niteesh S Shanbog
 v1 - 28/7/2021
