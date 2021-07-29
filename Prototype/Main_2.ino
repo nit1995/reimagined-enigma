@@ -4,7 +4,7 @@ Program to read sensors, log the data with time stamp on an SD Card, display the
 Sensors added-
 1. Conductivity Sensors - 3
 2. pH Sensor - 1
-3. Level Sesnsors -10
+3. Level Sensors -10
 
 Written by Niteesh S Shanbog
 v1 - 28/7/2021
@@ -107,11 +107,11 @@ void setup()
   }
 
 
-  Serial.print("Initializing SD card...");
+  //Serial.print("Initializing SD card...");
 
   if (!SD.begin()) 
   {
-    Serial.println("initialization failed!");
+    //Serial.println("initialization failed!");
     return;
   }
   Serial.println("initialization done.");
@@ -120,13 +120,13 @@ void setup()
   Serial.begin(9600);
   if (! rtc.begin()) 
   {
-    Serial.println("Couldn't find RTC");
+    //Serial.println("Couldn't find RTC");
     while (1);
   }
 
   if (rtc.lostPower()) 
   {
-    Serial.println("RTC lost power, lets set the time!");
+    //Serial.println("RTC lost power, lets set the time!");
   
     //Comment out below lines once you set the date & time.
     // Following line sets the RTC to the date & time this sketch was compiled
@@ -181,7 +181,7 @@ int level_check(int sensorType, int FloatSensor)
     else 
     { 
           int level = 1;
-          Serial.println( "WATER LEVEL - HIGH" ); 
+          //Serial.println( "WATER LEVEL - HIGH" ); 
     }
   }
   else
@@ -389,16 +389,16 @@ void write_SD()
     // if the file opened okay, write to it:
     if (myFile) 
     {
-      Serial.print("Writing to test.txt...");
+      //Serial.print("Writing to test.txt...");
       myFile.println(dataString);
       // close the file:
       myFile.close();
-      Serial.println("done.");
+      //Serial.println("done.");
     } 
   else 
   {
       // if the file didn't open, print an error:
-      Serial.println("error opening test.txt");
+      //Serial.println("error opening test.txt");
   }
 }
 
