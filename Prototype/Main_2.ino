@@ -153,9 +153,9 @@ void loop()
   lT03 = level_check(0,LAL004);
   lT12 = level_check(0,LAL005);
 
-  CT001 = measure_conductivity(1,A1);
-  CT002 = measure_conductivity(2,A2);
-  CT003 = measure_conductivity(3,A3);
+  CT001 = measure_conductivity(1,A3);
+  CT002 = measure_conductivity(2,A4);
+  CT003 = measure_conductivity(3,A5);
 
   pH001 = measure_pH();
   
