@@ -19,17 +19,17 @@ v3 - 29/7/2021 - Updated version of Main_1.ino by remvoing all Serial.println() 
 // Declare your Nextion objects - Example (page id = 0, component id = 1, component name = "b0") 
 
   //Conductivity Display
-  NexNumber c0 = NexNumber(1, 13, "n0");
-  NexNumber c1 = NexNumber(1, 14, "n2");
-  NexNumber c2 = NexNumber(1, 15, "n7");
+  NexNumber c0 = NexNumber(1, 13, "c1");
+  NexNumber c1 = NexNumber(1, 14, "c2");
+  NexNumber c2 = NexNumber(1, 15, "c3");
 
   //pH Display
-  NexNumber pH1 = NexNumber(1, 17, "n1");
+  NexNumber pH1 = NexNumber(1, 17, "ph");
 
   //Level Display
-  NexNumber l1 = NexNumber(3, 3, "n3");
-  NexNumber l2 = NexNumber(3, 5, "n0");
-  NexNumber l3 = NexNumber(3, 7, "n1");
+  NexNumber l1 = NexNumber(3, 3, "l0");
+  NexNumber l2 = NexNumber(3, 5, "l1");
+  NexNumber l3 = NexNumber(3, 7, "l2");
 
 // Date and time functions using a DS1307 RTC connected via I2C and Wire lib
 #include <Wire.h>
