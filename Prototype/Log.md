@@ -4,7 +4,7 @@ Main_1.ino - Program to read 3 conductivity sensors, pH sensor and level sensors
 ****************************************************************************************************
 **27/7/2021**
 
-Fixed function return issue in level sensors. 
+Fixed function return issue in level sensors. xxx
 Fixed measure_conductivity() function with regards to input of analog pin connected to sensor. 
 
 **************************************************************************************************
